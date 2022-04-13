@@ -1,0 +1,29 @@
+{
+    "name": "george/cloudflare-dyndns",
+    "description": "Local tool for setting zone IPs from current external IP",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "George Steel",
+            "email": "george@net-glue.co.uk"
+        }
+    ],
+    "require": {
+        "php": "~8.1",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "php-http/curl-client": "^2.2",
+        "laminas/laminas-diactoros": "^2.9",
+        "webmozart/assert": "^1.10"
+    },
+    "require-dev": {
+        "vimeo/psalm": "^4.22",
+        "doctrine/coding-standard": "^9.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    }
+}
